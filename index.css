@@ -11,7 +11,7 @@ html{
     scroll-behavior: smooth;
 }
 
-
+/* MENU */
 
 .container-header{
     
@@ -73,7 +73,7 @@ html{
     display: flex;
     align-items: center;
 }
-.inside .content-banner{
+.inside .contenido-banner{
     padding: 19px;
     padding-top: 40px;
     background-color: #121517;
@@ -82,7 +82,7 @@ html{
     text-align: center;
     border-radius: 40px;
 }
-.inside .content-banner img{
+.inside .contenido-banner img{
     margin-top: 40px;
     border: 2px solid #eff4c4;
     display: block;
@@ -90,20 +90,20 @@ html{
     margin: auto;
     border-radius: 9%;
 }
-.inside .content-banner h1{
+.inside .contenido-banner h1{
     margin-top: 40px;
     font-size: 40px;
     font-family: 'Cascadia code semi light';
     color: rgb(238, 238, 61);
 }
-.inside .content-banner h2{
+.inside .contenido-banner h2{
     font-size: 32px;
     font-weight: normal;
     color:white;
     font-family: 'Freestyle Script';
     
 }
-.inside .content-banner .xyz a{
+.inside .contenido-banner .abc a{
     color: #fff;
     display: inline-block;
     text-decoration: none;
@@ -116,75 +116,75 @@ html{
     font-size: 23px;
     transition: .3s;
 }
-.inside .content-banner .xyz a:hover{
+.inside .contenido-banner .abc a:hover{
     background-color:rgb(59, 53, 238);
 }
-.subject{
+.sobremi{
     background-color: #1e2326;
     color: #fff;
     padding: 50px 20px;
 }
-.subject .content-section{
+.sobremi .contenido-seccion{
     max-width: 1100px;
     margin: auto;
 }
-.subject h2{
+.sobremi h2{
     font-size: 68px;
     font-family: 'gabriola';
     text-align: center;
     padding: 0px 0;
 
 }
-.subject .content-section p{
+.sobremi .contenido-seccion p{
     font: 22px;
     line-height: 28px;
     margin-bottom: 8px;
     font-size: 20px;
 }
-.subject .content-section p span{
+.sobremi .contenido-seccion p span{
     color: yellow;
     font-size: 23px;
     
 }
-.subject .personal{
+.sobremi .fila{
     display: flex;
     gap: 180px;
 }
-.subject .personal .col
+.sobremi .fila .col
 {
     width: 50%;
 }
-.subject .personal .col h3{
+.sobremi .fila .col h3{
     font-size: 38px;
     font-family: 'Script MT bold';
     margin-bottom: 25px;
 }
-.subject .personal .col ul{
+.sobremi .fila .col ul{
     list-style: none;
 }
-.subject .personal .col ul li{
+.sobremi .fila .col ul li{
     margin: 12px 0;
     font-size: 17px;
 }
-.subject .personal .col ul li strong{
+.sobremi .fila .col ul li strong{
     display: inline-block;
     color:  #a7b0bf;
     width: 130px;
     font-size: 19px;
 }
-.subject .personal .col ul li span{
+.sobremi .fila .col ul li span{
     background-color: #a7b0bf;
     color: #121517;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
 }
-.subject .personal .col .container-intereses{
+.sobremi .fila .col .container-intereses{
     display: flex;
     flex-wrap: wrap;
     
 }
-.subject .personal .col .container-intereses .interes{
+.sobremi .fila .col .container-intereses .interes{
     width: 100px;
     height: 100px;
     background-color: #252A2E;
@@ -195,14 +195,14 @@ html{
     align-items: center;
     justify-content: center;
     transition: .3s;
-}.subject .personal .col .container-intereses .interes:hover{
+}.sobremi .fila .col .container-intereses .interes:hover{
     background-color: #4e5154;
 }
-.subject .personal .col .container-intereses .interes i{
+.sobremi .fila .col .container-intereses .interes i{
     font-size: 30px;
     margin-bottom: 10px;
 }
-.subject button{
+.sobremi button{
     cursor: pointer;
     background-color: transparent;
     border: 2px solid rgb(197, 215, 120);
@@ -217,7 +217,7 @@ html{
     background-color:  rgb(35, 13, 66);
     border-radius: 10px;
 }
-.subject button .overlay{
+.sobremi button .overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -228,17 +228,17 @@ html{
     transition: 1s;
     border-radius: 10px;
 }
-.subject button:hover .overlay{
+.sobremi button:hover .overlay{
     width: 100%;
 }
-
+/* SECCION S K I L L S */
 .skills{
     background-color: #252A2E;
     color: #fff;
     padding: 50px 20px;
     
 }
-.skills .content-section{
+.skills .contenido-seccion{
     max-width: 1100px;
     margin: auto;
     
@@ -251,15 +251,15 @@ html{
     
 
 }
-.skills .personal{
+.skills .fila{
     display: flex;
     gap: 200px;
 }
-.skills .personal .col{
+.skills .fila .col{
     width: 50%;
     padding: 0 20px;
 }
-.skills .personal .col h3{
+.skills .fila .col h3{
     font-size: 38px;
     font-family: 'Script MT bold';
     margin-bottom: 25px;
@@ -310,7 +310,7 @@ html{
 
 
 
-
+/* Estas clases se agregaran dinamicamente mediante javascript */
 .skills .skill .javascript{
     width: 0%;
     animation: 2s javascript forwards;
@@ -411,13 +411,13 @@ html{
 
 
 
-/* section CURRICULUM */
+/* SECCION CURRICULUM */
 .curriculum{
     background-color: #1e2326;
     color: #fff;
     padding: 50px 20px;
 }
-.curriculum .content-section{
+.curriculum .contenido-seccion{
     max-width: 1100px;
     margin: auto;
 }
@@ -428,62 +428,62 @@ html{
     padding: 20px 0;
 
 }
-.curriculum .personal{
+.curriculum .fila{
     display: flex;
     justify-content: space-between;
     
 }
-.curriculum .personal .col{
+.curriculum .fila .col{
     width: 47%;
     padding: 0 20px;
 }
-.curriculum .personal .col h3{
+.curriculum .fila .col h3{
     font-size: 36px;
     font-family: 'Script MT bold';
     margin-bottom: 25px;
 }
-.curriculum .personal .izquierda{
+.curriculum .fila .izquierda{
     border-right: 2px solid  #e6d964;
 }
-.curriculum .personal .derecha{
+.curriculum .fila .derecha{
     border-left: 2px solid  #e6d964;
 }
-.curriculum .personal .item{
+.curriculum .fila .item{
     padding: 25px;
     margin-bottom: 30px;
     background-color: #252A2E;
     position: relative;
 }
-.curriculum .personal .item h4{
+.curriculum .fila .item h4{
     font-size: 23px;
     margin-bottom: 10px;
     color: #e6d964;
 }
-.curriculum .personal .item .casa{
+.curriculum .fila .item .casa{
     color: #c1badf;
     font-size: 20px;
     font-weight: bold;
     display: block;
 }
-.curriculum .personal .item .fecha{
+.curriculum .fila .item .fecha{
     display: block;
     color: #c1badf;
     margin-bottom: 10px;
     font-size: 20px;
 }
-.curriculum .personal .item p{
+.curriculum .fila .item p{
     line-height: 24px;
     font-size: 18px;
 }
-.curriculum .personal .izq{
+.curriculum .fila .izq{
     border-right: 2px solid  #e6d964;;
     margin-right: 20px;
 }
-.curriculum .personal .der{
+.curriculum .fila .der{
     border-left: 2px solid  #e6d964;;
     margin-left: 20px;
 }
-.curriculum .personal .item .conectori{
+.curriculum .fila .item .conectori{
     height: 2px;
     background-color:  #e6d964;
     width: 47px;
@@ -492,7 +492,7 @@ html{
     right: -47px;
     z-index: 5;
 }
-.curriculum .personal .item .conectori .circuloi{
+.curriculum .fila .item .conectori .circuloi{
     display: block;
     height: 10px;
     width: 10px;
@@ -502,7 +502,7 @@ html{
     position: relative;
     bottom: 4px;
 }
-.curriculum .personal .item .conectord{
+.curriculum .fila .item .conectord{
     height: 2px;
     background-color: #e6d964;
     width: 47px;
@@ -511,7 +511,7 @@ html{
     left: -47px;
     z-index: 5;
 }
-.curriculum .personal .item .conectord .circulod{
+.curriculum .fila .item .conectord .circulod{
     display: block;
     height: 10px;
     width: 10px;
@@ -521,13 +521,13 @@ html{
     position: relative;
     bottom: 4px;
 }
-/* section PORTFOLIO */
+/* SECCION PORTFOLIO */
 .portfolio{
     background-color: #252A2E;
     color: #fff;
     padding: 50px 20px;
 }
-.portfolio .content-section{
+.portfolio .contenido-seccion{
     max-width: 1100px;
     margin: auto;
 }
@@ -579,7 +579,7 @@ html{
 .portfolio .galeria .proyecto .overlay:hover h3{
     margin-bottom: 0px;
 }
-/* section CONTACTO */
+/* SECCION CONTACTO */
 .contacto{
     background-image: url(img/w2.jpg);
     background-color: #1e2326;
@@ -587,7 +587,7 @@ html{
     padding: 50px 0;
     
 }
-.contacto .content-section{
+.contacto .contenido-seccion{
     max-width: 1100px;
     margin: auto;
 }
@@ -597,7 +597,7 @@ html{
     text-align: center;
     padding: 20px 0;
 }
-.contacto .personal{
+.contacto .fila{
     display: flex;
 }
 .contacto .col{
@@ -676,10 +676,10 @@ footer{
     width: 100%;
 
 }
-footer .xyz{
+footer .abc{
     margin-bottom: 20px;
 }
-footer .xyz a{
+footer .abc a{
     color: rgb(245, 253, 4);
     display: inline-block;
     text-decoration: none;
@@ -693,7 +693,7 @@ footer .xyz a{
     transition: .3s;
 }
 
-footer .xyz a :hover{
+footer .abc a :hover{
     background-color: #1a2454;
     border-radius: 100%;
     width: 65px;
@@ -703,7 +703,7 @@ footer .xyz a :hover{
     
 }
 
-footer .abc{
+footer .arriba{
     display: block;
     width: 50px;
     height: 50px;
@@ -718,14 +718,14 @@ footer .abc{
     font-size: 23px;
 }
 
-footer .abc :hover{
+footer .arriba :hover{
     color: #1a2454;
     font-size: 30px ;
     transition: 0.2s;
 }
 
 
-/* section RESPONSIVE */
+/* SECCION RESPONSIVE */
 @media screen and (max-width:980px){
     nav{
         display: none;
@@ -750,30 +750,30 @@ footer .abc :hover{
     }
 }
 @media screen and (max-width:700px){
-    .subject .personal{
+    .sobremi .fila{
         display: block;
     }
-    .subject .personal .col{
+    .sobremi .fila .col{
         width: fit-content;
     }
 
-    .skills .personal{
+    .skills .fila{
         display: block;
     }
-    .skills .personal .col{
+    .skills .fila .col{
         width: 100%;
     }
-    .skills .personal .col .barra-skill{
+    .skills .fila .col .barra-skill{
         width: 100%;
     }
 
-    .curriculum .personal{
+    .curriculum .fila{
         display: block;
     }
-    .curriculum .personal .col{
+    .curriculum .fila .col{
         width: 90%;
     }
-    .curriculum .personal .derecha{
+    .curriculum .fila .derecha{
         margin-left: 20px;
     }
 
@@ -787,10 +787,10 @@ footer .abc :hover{
     .portfolio .galeria .proyecto img{
         width: 100%;
     }
-    .contacto .personal{
+    .contacto .fila{
         display: block;
     }
-    .contacto .personal .col{
+    .contacto .fila .col{
         width: 100%;
     }
 }
