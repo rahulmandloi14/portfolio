@@ -1,6 +1,6 @@
 let menuVisible = false;
-//Función que oculta o muestra el menu
-function mostrarOcultarMenu(){
+
+function menu(){
     if(menuVisible){
         document.getElementById("nav").classList ="";
         menuVisible = false;
@@ -10,13 +10,13 @@ function mostrarOcultarMenu(){
     }
 }
 
-function seleccionar(){
-    //oculto el menu una vez que selecciono una opcion
+function selection(){
+   
     document.getElementById("nav").classList = "";
     menuVisible = false;
 }
-//Funcion que aplica las animaciones de las habilidades
-function efectoHabilidades(){
+
+function effect(){
     var skills = document.getElementById("skills");
     var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
     if(distancia_skills >= 300){
@@ -35,7 +35,7 @@ function efectoHabilidades(){
 }
 
 
-//detecto el scrolling para aplicar la animacion de la barra de habilidades
+
 window.onscroll = function(){
-    efectoHabilidades();
+    effect();
 } 

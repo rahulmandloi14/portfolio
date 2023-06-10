@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="eng">
+<html>
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +13,7 @@
 
 <body>
     <!-- MENU -->
-    <div class="contenedor-header">
+    <div class="container-header">
         <header>
             <div class="logo">
                 <img src="img/sign.png" alt="">
@@ -22,28 +21,28 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#inicio" onclick="seleccionar()">INFO</a></li>
-                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
-                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
-                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
-                    <li><a href="#contacto" onclick="seleccionar()">CONTACT</a></li>
+                    <li><a href="#inside" onclick="selection()">INFO</a></li>
+                    <li><a href="#skills" onclick="selection()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="selection()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="selection()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="selection()">CONTACT</a></li>
                 </ul>
             </nav>
-            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+            <div class="nav-responsive" onclick="menu()">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </header>
     </div>
 
-    <!-- SECCION INICIO -->
-    <section id="inicio" class="inicio">
-        <div class="contenido-banner">
-            <div class="contenedor-img">
+    
+    <section id="inside" class="inside">
+        <div class="content-banner">
+            <div class="container-img">
                 <img src="img/RAHUL1.png" alt="">
             </div>
             <h1>Rahul &nbsp;Mandloi</h1>
             <h2>Software Developer</h2>
-            <div class="redes">
+            <div class="xyz">
                 <a href="https://www.facebook.com/rahul.mandloi.71/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
                 <a href="" target="_blank"><i class="fa-brands fa-twitter"></i></a>
                 <a href="https://www.instagram.com/iamrahulmandloi/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
@@ -53,26 +52,18 @@
         </div>
     </section>
 
-    <!-- SECCION SOBRE MI -->
-    <section id="sobremi" class="sobremi">
-        <div class="contenido-seccion">
+  
+    <section id="subject" class="subject">
+        <div class="content-section">
             <h2>Info</h2>
             <p>Hello !<br><span>I am Rahul Mandloi .</span></p>
             <p>
-                I'm strong in intuitive problem-solving skills . Passionate about
-                implementing and launching new projects . Ability to translate
-                business requirements into technical solutions . Looking to start
-                the career as an entry-level software engineer with a reputed
-                company where I can utilize my superior understanding of the
-                domain gained during my Bachelors & continuing in Masters .
-                I have excellent Communication skills to convince potential clients and
-                customers . Passionate about learning new concepts and possess the ability
-                to handle work pressure and customer
-                issues professionally . ☺️
+                
+I am a tech enthusiast with a Bachelor's degree in B.Tech. Currently, I thrive as a full-stack developer specializing in the MERN stack. With six months of professional experience under my belt, I have honed my skills and gained practical knowledge in web development. Additionally, I am actively engaged in a live project, leveraging my expertise to deliver innovative solutions. Passionate about pushing the boundaries of technology, I am committed to continuous learning and growth in my career as a MERN stack developer ☺️
             </p>
             <br>
-            <div class="fila">
-                <!-- datos personales -->
+            <div class="personal">
+               
                 <div class="col">
                     <h3>Personal Details</h3>
                     <ul>
@@ -102,10 +93,10 @@
                     </ul>
                 </div>
 
-                <!-- intereses -->
+                <!-- interest -->
                 <div class="col">
                     <h3>Hobbies</h3>
-                    <div class="contenedor-intereses">
+                    <div class="container-intereses">
                         <div class="interes">
                             <i class="fa-solid fa-gamepad"></i>
                             <span>GAME</span>
@@ -140,18 +131,18 @@
                 </div>
             </div>
 
-            <a href="Rahul Mandloi Resume.pdf" target="_blank" style="text-decoration: none;"> <button>
-                    Download CV &nbsp;<i class="fa-solid fa-download"></i>
+            <a href="Rahul  resume main.pdf" target="_blank" style="text-decoration: none;"> <button>
+                    Download Resume &nbsp;<i class="fa-solid fa-download"></i>
                     <span class="overlay"></span>
                 </button></a>
         </div>
     </section>
 
-    <!-- SECCION SKILLS -->
+    <!-- section SKILLS -->
     <section class="skills" id="skills">
-        <div class="contenido-seccion">
+        <div class="content-section">
             <h2>Skills</h2>
-            <div class="fila">
+            <div class="personal">
                 <!-- Technical Skill -->
                 <div class="col">
                     <h3>Technical Skills</h3>
@@ -182,7 +173,9 @@
 
 
                 </div>
+
                 <!-- Professional Skills -->
+
                 <div class="col">
                     <h3>Professional Skills</h3>
                     <div class="skill">
@@ -230,11 +223,11 @@
         </div>
     </section>
 
-    <!-- SECCION CURRICULUM -->
+    
     <section id="curriculum" class="curriculum">
-        <div class="contenido-seccion">
+        <div class="content-section">
             <h2>Curriculum</h2>
-            <div class="fila">
+            <div class="personal">
                 <div class="col izquierda">
                     <h3>Education</h3>
                     
@@ -279,9 +272,9 @@
         </div>
     </section>
 
-    <!-- SECCION PORTFOLIO -->
+    
     <section id="portfolio" class="portfolio">
-        <div class="contenido-seccion">
+        <div class="content-section">
             <h2>Portfolio</h2>
             <div class="galeria">
                 <div class="proyecto">
@@ -335,12 +328,12 @@
         </div>
     </section>
 
-    <!-- SECCION CONTACTO -->
+  
     <section id="contacto" class="contacto">
-        <div class="contenido-seccion">
+        <div class="content-section">
             <h2>Contact &nbsp;Me</h2>
-            <div class="fila">
-                <!-- Formulario -->
+            <div class="personal">
+               
                 <div class="col">
                     <input type="text" placeholder="Enter your name">
                     <input type="email" placeholder="Enter your e-mail">
@@ -365,10 +358,10 @@
 
     <!-- footer -->
     <footer>
-        <a href="#inicio" class="arriba">
+        <a href="#inside" class="abc">
             <i class="fa-solid fa-angles-up"></i>
         </a>
-        <div class="redes">
+        <div class="xyz">
             <a href="https://www.facebook.com/rahul.mandloi.71/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
             <a href="" target="_blank"><i class="fa-brands fa-twitter"></i></a>
             <a href="https://www.instagram.com/iamrahulmandloi/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
